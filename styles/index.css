@@ -1,0 +1,18 @@
+/* styles.css */
+
+
+  .button{
+    display: inline-flex;
+padding: 20px 30px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 8px;
+background: #F85559;
+cursor: pointer;
+  }
+
+  .exotic{
+    border-radius: 8px;
+background: linear-gradient(180deg, #121212 0%, rgba(18, 18, 18, 0.00) 100%);
+  }

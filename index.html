@@ -15,7 +15,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
-    <header class="ml-60 mr-60 mt-12">
+    <header class="ml-60 mr-60 mt-12 h-40">
       <section
         class="bg-[#F85559] rounded-full p-10 flex justify-between text-white items-center"
       >
@@ -46,7 +46,60 @@
         </div>
       </section>
     </header>
-    <main></main>
+    <main>
+      <section class="relative ml-60 mr-60 mt-12 bg-cover text-center">
+        <div class="carousel w-full">
+          <div id="slide1" class="carousel-item relative w-full">
+            <img src="images/banner1.png" class="w-full" />
+            <div
+              class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+            >
+              <a href="#slide4" class="btn btn-circle">❮</a>
+              <a href="#slide2" class="btn btn-circle">❯</a>
+            </div>
+          </div>
+          <div id="slide2" class="carousel-item relative w-full">
+            <img src="images/banner2.png" class="w-full" />
+            <div
+              class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+            >
+              <a href="#slide1" class="btn btn-circle">❮</a>
+              <a href="#slide3" class="btn btn-circle">❯</a>
+            </div>
+          </div>
+          <div id="slide3" class="carousel-item relative w-full">
+            <img src="images/banner3.png" class="w-full" />
+            <div
+              class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+            >
+              <a href="#slide2" class="btn btn-circle">❮</a>
+              <a href="#slide4" class="btn btn-circle">❯</a>
+            </div>
+          </div>
+          <div id="slide4" class="carousel-item relative w-full">
+            <img src="images/banner4.png" class="w-full" />
+            <div
+              class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+            >
+              <a href="#slide3" class="btn btn-circle">❮</a>
+              <a href="#slide1" class="btn btn-circle">❯</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- extra text -->
+        <div class="absolute -top-20 left-80 bg-custom text-white">
+          <h1 class="text-6xl font-extrabold pt-24 pb-10">
+            Exotic tastes at your <br />
+            doorstep
+          </h1>
+          <p class="pb-10">We supply highly quality organic products</p>
+          <button class="button">Shop Now</button>
+        </div>
+
+        <!-- fruit section -->
+      </section>
+    </main>
     <footer></footer>
   </body>
 </html>
