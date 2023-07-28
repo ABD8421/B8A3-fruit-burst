@@ -20,6 +20,7 @@ background: linear-gradient(180deg, #121212 0%, rgba(18, 18, 18, 0.00) 100%);
   .team{
     background-image: url('../images/team.png');
     height: auto;
-    opacity: 150;
-
+    filter: brightness(0.6);
+    z-index: 5;
   }
+
