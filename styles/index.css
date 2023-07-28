@@ -3,10 +3,9 @@
 
   .button{
     display: flex;
-padding: 20px 30px;
+padding: 15px 25px;
 justify-content: center;
 align-items: center;
-gap: 10px;
 border-radius: 8px;
 background: #F85559;
 cursor: pointer;
@@ -24,3 +23,21 @@ background: linear-gradient(180deg, #121212 0%, rgba(18, 18, 18, 0.00) 100%);
     z-index: 5;
   }
 
+  .headline{
+    font-weight: 800px;
+    font-size: 24px;
+    border-bottom: 2px solid black;
+    width: 300px;
+  }
+
+  .imgs{
+    fill: gray;
+    border-radius: 100%;
+  }
+
+  .pera{
+    color: #121212;
+    font-weight: 500px;
+    font-size: 16px;
+    
+  }
